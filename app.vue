@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    gh-pages works
   </div>
 </template>
