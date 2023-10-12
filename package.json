@@ -7,9 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",
