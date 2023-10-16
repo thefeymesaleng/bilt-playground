@@ -3,9 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    baseURL: "/bilt-playground/",
+    baseURL: process.env.NODE_ENV === "production" ? "/bilt-playground/" : "/",
     buildAssetsDir: "assets",
   },
 
   modules: ["nuxt-quasar-ui"],
+  ssr: false,
 });

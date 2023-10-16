@@ -1,10 +1,9 @@
 <template>
-  <div><q-btn color="primary" icon="check" label="btn" /></div>
+  <div>
+    <ui-panels-tree />
+  </div>
 </template>
 
-<script setup>
-import { onMounted } from "vue";
-onMounted;
-</script>
+<script setup></script>
 
 <style scoped></style>
