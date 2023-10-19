@@ -19,6 +19,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@he-tree/vue": "^2.7.0"
+    "@he-tree/vue": "^2.7.0",
+    "thefeymes-ui": "^0.0.1-test-2"
   }
 }
